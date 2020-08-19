@@ -1,0 +1,33 @@
+@import "color";
+
+.navbar{
+    display: flex;
+    background-color: white;
+    max-width: 100%;
+    
+}
+
+.navbar__items{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+li{
+    margin-left: 40px;
+    list-style: none;
+  
+}
+
+a{
+    text-decoration: none;
+    color: $darkergreen;
+    font: bold;
+}

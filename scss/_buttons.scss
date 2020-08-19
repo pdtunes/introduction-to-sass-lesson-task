@@ -1,0 +1,34 @@
+@import "color";
+
+.main__button--small{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    margin-left: 50%;
+  
+}
+
+.main__buttons--btn{
+    background-color: white;
+    border-radius: 50%;
+    margin: 50px;
+    
+  
+}
+
+.main__buttons--btn1{
+    padding: 35px;
+    margin-left: 121%;
+    border: 2px solid $orange;
+}
+
+.main__buttons--btn2{
+    padding: 55px;
+    margin-left: 113%;
+    border: solid $lightergreen;
+}
+.main__buttons--btn3{
+    padding:75px;
+    margin-left: 105%;
+    border: solid $black;
+}

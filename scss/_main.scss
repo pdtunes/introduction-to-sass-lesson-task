@@ -1,0 +1,50 @@
+@import "color";
+
+body {
+  margin: 0;
+}
+
+.main {
+  padding: 80px;
+  background-color: $lightgrey;
+  display: flex;
+  flex-direction: row;
+}
+
+.main__heading {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.main__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.greentext p {
+  font-size: large;
+  color: $lightergreen;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: $lightergreen;
+  p {
+    color: white;
+  }
+}
+
+.footer__1{
+    flex: 33.3%;
+    margin-left: 10%;
+}
+
+.footer__2{
+    flex: 33.3%;
+
+}.footer__3{
+    margin-top: 15px;
+    flex: 33.3%;
+}
